@@ -51,6 +51,7 @@
   },
   "dependencies": {
     "babel-polyfill": "^6.23.0",
+    "connect-history-api-fallback": "^1.3.0",
     "flex.css": "^1.1.6",
     "github-markdown-css": "^2.4.1",
     "is": "^3.2.1",
