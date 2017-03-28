@@ -76,7 +76,7 @@
         if (replyId) {
           content = `[@${loginname}](/user/${loginname}) ${content}`
         }
-        content += `source [vue-cnode mobile 2.0](http://lzxb.name/vue-cnode/)`
+        content += `  来自 [vue-cnode mobile 2.0](http://lzxb.name/vue-cnode/)`
         util.post(`topic/${vid}/replies`, { replyId, content }, ({ success, error_msg }) => {
           this.btnname = '回复'
           if (success) {
